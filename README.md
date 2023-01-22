@@ -2,6 +2,11 @@
 
 This api demonstrates the flow of building an authentication/authorization service using nodejs (express) and mongodb.
 
+## Demo
+
+Use any tool like postman or https://hoppscotch.io/ to test this api hosted at
+https://sample-auth-api.onrender.com/
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
