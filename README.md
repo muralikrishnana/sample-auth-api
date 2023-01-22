@@ -15,14 +15,9 @@ To run this project, you will need to add the following environment variables to
 ## Installation
 
 Clone the project to your local system or desired machine.
-Run the following commands from the root folder of the project.
-
-```bash
-  cd backend
-```
 
 Make a copy of the `.env.example` file and place the values for the environment varibles there.
-Run the following commands:
+Run the following commands from the root folder of the project.
 
 ```bash
   yarn
@@ -96,4 +91,4 @@ type `successBasedReturn`:
 | `statusCode` | `number` | **Always Present**. A valid HTTP status code of the response |
 | `message` | `number` | **Always Present**. One line message explaining the status of the response |
 | `errors` | `string[]` | **Always Present**. List of all errors occurred in the backend |
-| `data` | `object` | **Presnt if success is true**. Actual data returned from the server |
+| `data` | `object` | **Present if success is true**. Actual data returned from the server |
