@@ -1,8 +1,11 @@
 import express from "express";
+import signInController from "../../../controllers/signin/signin.controller";
 const signInRouter = express.Router();
 
-signInRouter.get("/", (req, res) => {
-  res.json("Hello from signin route");
+signInRouter.post("/", async (req, res) => {
+  const signInResponse = await signInController(req.body);
+
+  res.status(signInResponse.statusCode).json(signInResponse);
 });
 
 export default signInRouter;
